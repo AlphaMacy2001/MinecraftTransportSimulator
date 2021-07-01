@@ -61,6 +61,7 @@ public class PartGun extends APart{
 	public boolean firedThisCommand;
 	public boolean firedThisTick;
 	public boolean gunEnabled;
+	public boolean firingLastTick;
 	public int cooldownTimeRemaining;
 	public int reloadTimeRemaining;
 	public int windupTimeCurrent;
